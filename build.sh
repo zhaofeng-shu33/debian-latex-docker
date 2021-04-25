@@ -4,4 +4,4 @@ if [[ ! -z "$DEBIAN_MIRROR" ]]; then
    echo "deb http://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free" > /etc/apt/sources.list
 fi
 apt update
-apt install texlive-latex-extra texlive-xetex texlive-fonts-recommended latexmk texlive-science
+apt install --yes texlive-latex-extra texlive-xetex texlive-fonts-recommended latexmk texlive-science
